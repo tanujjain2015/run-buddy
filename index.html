@@ -4,38 +4,61 @@
         <meta charset="UTF-8" />
         <link rel="stylesheet" href="assets/css/style.css" />
         <title>Run Buddy</title>
-        <style>             
+        <!--style>             
            h1{font-size: 100px;}
-        </style>
-        <nav> 
-            <!--Unordered Nav List-->
-            <ul>
-                <!--List item-->
-                <li>
-                    <a href="#What-We-Do">What We Do</a>
-                </li>
-                <li>
-                    <a href="#what-you-do">What You Do</a>
-                </li>
-                <li>
-                    <a href="#your-trainer">Your Trainers</a>
-                </li>
-                <li>
-                    <a href="#reach-out">Reach Out</a>
-                </li>
-            </ul>
-        </nav>
+        </style-->
     </head>
     <body>
         <header>
             <h1>
-                <a href="/">RUN BUDDY</a>
-            </h1>
+                <a href="/">RUN BUDDY</a>           
+             </h1>
+             <nav> 
+                <!--Unordered Nav List-->
+                <ul>
+                    <!--List item-->
+                    <li>
+                        <a href="#What-We-Do">What We Do</a>
+                    </li>
+                    <li>
+                        <a href="#what-you-do">What You Do</a>
+                    </li>
+                    <li>
+                        <a href="#your-trainer">Your Trainers</a>
+                    </li>
+                    <li>
+                        <a href="#reach-out">Reach Out</a>
+                    </li>
+                </ul>
+            </nav>
         </header>
 
         <!--hero/jumbotron-->
-        <section>
-
+        <section class="hero">
+            <div class="hero-form">
+                <h3>Get Started Today!</h3>
+                <p>Fill out this form and one of pur trainers will schedule a consult</p>
+                <form>
+                    <label for="name">Enter Full Name:</label>
+                    <input type="text" id="name" placeholder="Your Name" name="name" class="form-input"/> 
+                    <label for="email">Enter Email address:</label>
+                    <input type="email" id="email" placeholder="Your Email Address" name="email" class="form-input"/>
+                    <label for="phone">Enter a telephone number:</label>
+                    <input type="tel" name="phone" id="phone" placeholder="Your Telephone Number" class="form-input" />
+                    <p>
+                        Have you worked with our trainer before ?
+                        <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                        <label for="trainer-yes">Yes</label>
+                        <input type="radio" name="trainer-confirm" id="trainer-no" />
+                        <label for="trainer-no">No</label>
+                    </p>
+                    <p>
+                        <label for="checkbox"> I acknowledge that I am 18 years of age.</label>
+                        <input type="checkbox" name="age-confirm" id="checkbox" />
+                    </p>
+                    <button type="submit">Get running!</button>
+                </form>
+            </div>
         </section>
 
         <!--What we do-->
@@ -61,6 +84,11 @@
 
             <footer>
                 <h2>❤️ Made with love by Run Buddy</h2>
+                <div>
+                    <a href="#">Read Our Privacy Policy</a>
+                    <br />
+                    &copy; 2019 Run Buddy, Inc.
+                </div>
             </footer>
     </body>
 </html>
