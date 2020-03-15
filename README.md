@@ -1,4 +1,4 @@
-# Run Buddy is a new website
+# Run Buddy is a new website. A new merge
 
 # Add a new Comment
 
