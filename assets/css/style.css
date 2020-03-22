@@ -21,9 +21,13 @@ header {
     flex-wrap: wrap;
     position: sticky;
     position: -webkit-sticky;
-    position: sticky;
     top: 0;
     z-index: 9999;
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
 }
 
 body {
@@ -45,16 +49,12 @@ header h1 {
 header a {
     text-decoration: none;
     color: #fce138;
-    background-image: url("../images/flipped-hero-image.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-position: 80%;
   }
 
 header nav {
     /*float: right;*/
     margin: 7px 0;
+    width: 60%;
 }
 
 header nav ul {
@@ -117,9 +117,9 @@ footer div {
 
   .hero {
     /* Modify the image to flipped Image*/
-    /*background-image: url("../images/flipped-hero-image.jpg");*/
+    background-image: url("../images/flipped-hero-image.jpg");
     /*height: 600px;*/
-    /*background-size: cover;
+    background-size: cover;
     background-position: center;
     /*position: relative;*/
     background-attachment: fixed;
@@ -129,6 +129,7 @@ footer div {
     justify-content: center;
     align-items: flex-start;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+
   }
 
   .hero-cta {
@@ -154,7 +155,7 @@ footer div {
 
   .hero-form {
       color: #024e76;
-      background-color: #fce138 rgba(0,0,0,0.8);
+      background-color: #fce138;
       padding: 20px;
       border-style: solid;
       border-width: 3px;
